@@ -1,0 +1,26 @@
+name: Sprawdzanie
+version: '${project.version}'
+main: me.tnl.sprawdzanie.Sprawdzanie
+api-version: 1.18
+authors: [ ThatsNotLiam1337 ]
+description: Plugin do sprawdzania graczy
+website: www.youtube.com/c/ThatsNotLiam
+softdepend:
+  - PvPManager
+
+commands:
+  sprawdzaniereload:
+    description: Przeladowuje config.
+  sprawdz:
+    description: Sprawdza
+
+permissions:
+  tnl.pluginreload:
+    default: op
+    description: permisja do przeladowania pluginu
+  tnl.sprawdz:
+    default: op
+    description: permisja do sprawdzania
+  tnl.sprawdz.setroom:
+    default: op
+    description: permisja do ustawienia sprawdzarki i miejsca gdzie cie ma tepac po sprawdzaniu

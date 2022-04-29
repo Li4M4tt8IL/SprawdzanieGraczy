@@ -1,0 +1,19 @@
+prefix: "&8[&6BFS&fMC&8] &f"
+
+Sprawdzarka:
+  x: 0
+  y: 0
+  z: 0
+  world: world
+
+Spawn:
+  x: 0
+  y: 0
+  z: 0
+  world: world
+
+title: "&cJestes &lsprawdzany!"
+subtitle: "&6Zobacz chat!"
+stay: 100
+
+Whitelisted-Commands: []
